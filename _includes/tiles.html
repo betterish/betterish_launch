@@ -1,0 +1,18 @@
+<section class="tiles">
+
+{% assign sorted_episodes = (site.episodes | sort: 'date' ) | reverse %}
+{% for episode in sorted_episodes %}
+	<article class="style-1 square">
+		<span class="image">
+			<img src="{{ episode.image }}" alt="" />
+		</span>
+		<a href="{{ episode.url  | relative_url }}">
+			<h2>{{ episode.title }}</h2>
+			<div class="content">
+				<p>{{ episode.excerpt }}</p>
+			</div>
+		</a>
+	</article>
+{% endfor %}
+
+</section>

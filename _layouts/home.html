@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+<!-- header -->
+  {% include header.html %}
+
+  <header>
+  <h1>{{ page.landing-title }}</h1>
+  <p>{{ page.tagline }}</p>
+  <ul class="actions">
+    <li><a href="#one" class="button special scrolly">Subscribe</a></li>
+</ul>
+  </header>
+  <!-- content -->
+  {{ content }}
+
+  <!-- Tiles -->
+  {% include tiles.html %}
+
+
+  <!-- footer -->
+  {% include footer.html %}
+</body>
+
+</html>
