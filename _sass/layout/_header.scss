@@ -7,17 +7,19 @@
 /* Header */
 
 	#header {
-		@include padding(5em, 0, (3em, 0, -5em, 0));
+		@include padding(1.5em, 0);
 
 		.logo {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
 			font-weight: _font(weight-bold);
+			font-family: _font(family-logo);
 			letter-spacing: _font(letter-spacing);
 			margin: 0 0 (_size(element-margin) * 1.25) 0;
 			text-decoration: none;
-			text-transform: uppercase;
+			text-transform: lowercase;
+			text-align: center;
 			display: inline-block;
 
 			> * {
@@ -33,6 +35,13 @@
 					width: 2em;
 					height: 2em;
 				}
+
+			}
+		}
+		.sub_logo {
+			border-bottom: none;
+			@include breakpoint(xsmall) {
+					display:none;
 			}
 		}
 

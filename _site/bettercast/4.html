@@ -19,34 +19,21 @@
 
 	<header id="header">
 		<div class="inner">
-
-			<!-- Logo -->
-			<a href="/" class="logo">
-				<span class="symbol">
-
-					
-
-					<img src="/images/logo.svg" alt="" />
-
-					
-
-				</span><span class="title">betterish</span>
-			</a>
+			<a href="http://0.0.0.0:4000/" class="logo">betterish</a> <a href="/bettercast" class="sub_logo">(makers of the bettercast)</a>
+		</div>
 			<!-- Nav -->
 			<nav>
-				<ul>
-					<li><a href="#menu">Menu</a></li>
-				</ul>
+				<a href="#menu" class="main-nav-trigger is-visible">
+					<i class="icon icon--burger"></i>
+				</a>
 			</nav>
-
-		</div>
 	</header>
 
 	<nav id="menu">
-	<h2>Menu</h2>
-	<ul>
+	<ul class="links">
 
 		
+		 
 		 
 		 
 		 
@@ -70,13 +57,15 @@
 		<li><a href="/">betterish</a></li>
 
 		 
+
+		 
 	</ul>
+	<!-- <ul class="actions vertical">
+	<li><a href="#" class="button special fit">Get Started</a></li>
+	<li><a href="#" class="button fit">Log In</a></li>
+</ul> -->
 </nav>
 
-
-	<!-- Main -->
-	<div id="main">
-		<div class="inner">
 
 
     <h1>What Happens When You Stop Complaining?</h1>  <p>“What would happen if I never complained again?” Cianna Stewart asked herself one day in 2010. The answer inspired the No Complaining Project. Find out what a complaint really is, whether it’s ever okay to complain, and how to stop complaining when it’s an ingrained habit. (If you want to. Why would anyone want to stop complaining, anyway?)</p>
@@ -142,6 +131,20 @@
 <script src="http://0.0.0.0:4000/assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="http://0.0.0.0:4000/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="http://0.0.0.0:4000/assets/js/main.js"></script>
+<!-- <script>
+var divs = $('div[id^="tagline-"]').hide(),
+    i = 0;
+
+(function cycle() {
+
+    divs.eq(i).fadeIn(400)
+              .delay(1000)
+              .fadeOut(400, cycle);
+
+    i = ++i % divs.length;
+
+})();
+</script> -->
 
 
 

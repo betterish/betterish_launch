@@ -1,6 +1,6 @@
 ---
 layout: home
 title: betterish
-landing-title: 'Get a little better at something today'
+landing-title: 'For the curious ones.'
 tagline: 'Real stories, tips, and tools to keep you feeling motivated.'
 ---

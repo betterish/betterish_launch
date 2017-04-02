@@ -9,6 +9,28 @@
 	#main {
 		@include padding(5em, 0, (-5em, 0, 3em, 0));
 
+	 .inner {
+		  header {
+				text-align: center;
+				@include breakpoint(small) {
+					text-align: left;
+				}
+				p {
+					display: inline-block;
+					}
+					ul.actions{
+						margin-left: 1.5rem;
+						display: inline-block;
+						@include breakpoint(small) {
+							margin: 0;
+							display: block;
+						}
+
+					}
+
+				}
+	}
+
 		@include breakpoint(small) {
 			@include padding(3em, 0, (-3em, 0, 3em, 0));
 		}

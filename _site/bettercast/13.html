@@ -19,34 +19,21 @@
 
 	<header id="header">
 		<div class="inner">
-
-			<!-- Logo -->
-			<a href="/" class="logo">
-				<span class="symbol">
-
-					
-
-					<img src="/images/logo.svg" alt="" />
-
-					
-
-				</span><span class="title">betterish</span>
-			</a>
+			<a href="http://0.0.0.0:4000/" class="logo">betterish</a> <a href="/bettercast" class="sub_logo">(makers of the bettercast)</a>
+		</div>
 			<!-- Nav -->
 			<nav>
-				<ul>
-					<li><a href="#menu">Menu</a></li>
-				</ul>
+				<a href="#menu" class="main-nav-trigger is-visible">
+					<i class="icon icon--burger"></i>
+				</a>
 			</nav>
-
-		</div>
 	</header>
 
 	<nav id="menu">
-	<h2>Menu</h2>
-	<ul>
+	<ul class="links">
 
 		
+		 
 		 
 		 
 		 
@@ -70,13 +57,15 @@
 		<li><a href="/">betterish</a></li>
 
 		 
+
+		 
 	</ul>
+	<!-- <ul class="actions vertical">
+	<li><a href="#" class="button special fit">Get Started</a></li>
+	<li><a href="#" class="button fit">Log In</a></li>
+</ul> -->
 </nav>
 
-
-	<!-- Main -->
-	<div id="main">
-		<div class="inner">
 
 
     <h1>writing a book when you don't know how</h1>  <p>5 years ago, Kent Davis had never written a novel. Now he’s published three. We learn how he got started and how he kept going when nothing he was writing was good enough and everything was hard and terrible until it wasn’t.</p>
@@ -143,6 +132,20 @@ Music by <a href="https://revolutionvoid.bandcamp.com/">Revolution Void</a></p>
 <script src="http://0.0.0.0:4000/assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="http://0.0.0.0:4000/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="http://0.0.0.0:4000/assets/js/main.js"></script>
+<!-- <script>
+var divs = $('div[id^="tagline-"]').hide(),
+    i = 0;
+
+(function cycle() {
+
+    divs.eq(i).fadeIn(400)
+              .delay(1000)
+              .fadeOut(400, cycle);
+
+    i = ++i % divs.length;
+
+})();
+</script> -->
 
 
 
