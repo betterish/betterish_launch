@@ -34,7 +34,7 @@
 		text-align: center;
 		text-decoration: none;
 		text-overflow: ellipsis;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		white-space: nowrap;
 
 		&.icon {
@@ -65,6 +65,8 @@
 		&.big {
 			font-size: 1em;
 		}
+
+
 
 		&.special {
 			box-shadow: none;

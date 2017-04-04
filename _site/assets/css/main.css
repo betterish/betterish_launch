@@ -1328,7 +1328,7 @@ h2, h3, h4, h5, h6 {
   font-weight: 900;
   line-height: 1.5;
   margin: 0 0 2em 0;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.35em; }
   h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit; }
@@ -1854,7 +1854,7 @@ button,
   text-align: center;
   text-decoration: none;
   text-overflow: ellipsis;
-  text-transform: uppercase;
+  text-transform: lowercase;
   white-space: nowrap; }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
@@ -2525,7 +2525,7 @@ a.main-nav-trigger {
           letter-spacing: -0.035em;
           line-height: 4em;
           text-decoration: none;
-          text-transform: uppercase; }
+          text-transform: none; }
         #menu ul.links > li > .button {
           display: block;
           margin: 0.5em 0 0 0; }

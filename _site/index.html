@@ -96,11 +96,23 @@
     <h2>bettercast episodes</h2>
     <p>The podcast about getting better at things</p>
     <ul class="actions">
-      <li><a href="#one" class="button special icon fa-rss">Subscribe</a></li>
+      <li><a href="#" class="button special icon fa-rss">Subscribe</a></li>
   </ul>
   </header>
   <section class="tiles">
 
+
+	<article class="style6">
+		<span class="image square">
+			<img src="assets/images/episodes/15.jpg" alt="" />
+		</span>
+		<a href="/bettercast/15">
+			<h3>100 noes with Dr. Nadia Brown</h3>
+			<div class="content">
+				<p>Imagine giving up your entire life to pursue something, then right after you've made the plunge, becoming so paralyzed with fear that you couldn't perform at even the most basic level.</p>
+			</div>
+		</a>
+	</article>
 
 	<article class="style6">
 		<span class="image square">
@@ -374,6 +386,35 @@ var divs = $('div[id^="tagline-"]').hide(),
 
 })();
 </script> -->
+<script type="text/javascript">
+
+	function DropDown(el) {
+		this.dd = el;
+		this.initEvents();
+	}
+	DropDown.prototype = {
+		initEvents : function() {
+			var obj = this;
+
+			obj.dd.on('click', function(event){
+				$(this).toggleClass('active');
+				event.stopPropagation();
+			});
+		}
+	}
+
+	$(function() {
+
+		var dd = new DropDown( $('#dd') );
+
+		$(document).click(function() {
+			// all dropdowns
+			$('.wrapper-dropdown-5').removeClass('active');
+		});
+
+	});
+
+</script>
 
 </body>
 
