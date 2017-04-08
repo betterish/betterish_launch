@@ -12,6 +12,10 @@
 		display: inline-block;
 		position: relative;
 
+		&.style6 {
+			@include vendor('filter','grayscale(1) contrast(1.1) brightness(1.1)')
+		}
+
 		@include breakpoint(small) {
 			float:none!important;
 			max-width: 100%!important;
