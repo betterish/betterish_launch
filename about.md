@@ -2,6 +2,7 @@
 layout: page
 title: About
 featured-image: assets/images/team.jpg
+share-image: assets/images/share.png
 ---
 
 Stevo, Vanessa, and Omar started [Habitry, the coaching education company](http://habitry.com) in 2014, with the mission to, “help the most people help the most people.”
@@ -36,7 +37,7 @@ In addition, we post to instagram. [@betterish](http://instagram.com/bettercast)
 We have no fucking clue. We actually don't even know if it's possible to make money at this yet, because every book, blog post, and MBA will tell you that the easiest way to get people to buy shit is to remind them they are inadequate or broken. We hope to figure an alternative to that with you as we get to know more about what kind of things you want to get better at and the problems you’re having with getting better at them.
 
 ## What this is
-Betterish is a work in progress, wholly devoted to the process of progress. We’re dedicated to showing you the preparation stages. To learning loudly and in public. And to building the whole business with you, right in front of your eyes. We don’t what that is yet, but we also know we don’t want to default to the status quo that makes people feel broken. Or other. Or ugly. Or unloveable.
+Betterish is a work in progress, wholly devoted to the process of progress. We’re dedicated to showing you the preparation stages. To learning loudly and in public. And to building the whole business with you, right in front of your eyes. We don’t know what that is yet, but we also know we don’t want to default to the status quo that makes people feel broken. Or other. Or ugly. Or unloveable.
 
 Because you’re none of those things. And wanting to be better at something doesn’t mean you have to hate who you are. It just means you’re curious about how much better you can be.
 
