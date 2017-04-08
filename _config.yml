@@ -10,8 +10,8 @@ title: betterish
 subtitle: makers of the bettercast
 email: hello@betterish.co
 description: Real stories, tips, and tools to keep you feeling motivated.
-baseurl: "betterish_launch" # the subpath of your site, e.g. /blog
-url: "betterish.github.io" # the base hostname & protocol for your site
+baseurl: "betterish_launch/" # the subpath of your site, e.g. /blog
+url: "http://betterish.github.io" # the base hostname & protocol for your site
 
 # Logo settings
 logo-image-url: images/logo.svg
