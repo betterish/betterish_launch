@@ -1300,6 +1300,7 @@ a {
     color: #f2849e !important; }
 
 strong, b {
+  color: #000000;
   font-weight: 900; }
 
 em, i {
@@ -1310,6 +1311,7 @@ p {
 
 h1 {
   font-size: 2.75em;
+  color: #000000;
   font-weight: 700;
   line-height: 1.3;
   margin: 0 0 1em 0;
@@ -1325,6 +1327,7 @@ h1 {
       font-size: 1.75em; } }
 
 h2, h3, h4, h5, h6 {
+  color: #000000;
   font-weight: 900;
   line-height: 1.5;
   margin: 0 0 2em 0;
@@ -1412,6 +1415,8 @@ hr {
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
+section .content, article .content {
+  max-width: 37em; }
 
 header p {
   margin-top: -1em; }
@@ -1800,6 +1805,7 @@ table {
   table td {
     padding: 0.75em 0.75em; }
   table th {
+    color: #000000;
     font-size: 0.9em;
     font-weight: 900;
     padding: 0 0.75em 0.75em 0.75em;
@@ -2037,7 +2043,8 @@ button,
       .tiles article > a:hover {
         color: #ffffff !important; }
       .tiles article > a h3 {
-        margin: 0; }
+        margin: 0;
+        color: #ffffff; }
       .tiles article > a .content {
         -moz-transition: max-height 0.5s ease, opacity 0.5s ease;
         -webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
