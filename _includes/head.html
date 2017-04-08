@@ -28,7 +28,7 @@
     <meta property="og:type" content="business.business">
     <meta property="og:title" content="betterish">
     <meta property="og:url" content="https://betterish.co">
-    <meta property="og:image" content="{% if page.share-image %}{{ page.share-image }}{% endif %}">
+    <meta property="og:image" content="{% if page.share-image %}{{ page.share-image | prepend: site.baseurl }}{% endif %}">
     <meta property="business:contact_data:street_address" content="">
     <meta property="business:contact_data:locality" content="Oakland">
     <meta property="business:contact_data:region" content="CA">
@@ -40,7 +40,7 @@
     <meta name="twitter:site" content="@betterish">
     <meta name="twitter:title" content="betterish">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{% if page.share-image %}{{ page.share-image }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.share-image %}{{ page.share-image | prepend: site.baseurl }}{% endif %}">
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="{{ "/assets/css/main.css " | prepend: site.baseurl }}">
