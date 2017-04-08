@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-featured-image: assets/images/team.jpg
-share-image: assets/images/share.png
+featured-image: /assets/images/team.jpg
+share-image: /assets/images/share.png
 ---
 
 Stevo, Vanessa, and Omar started [Habitry, the coaching education company](http://habitry.com) in 2014, with the mission to, “help the most people help the most people.”
