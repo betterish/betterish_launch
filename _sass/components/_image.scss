@@ -12,6 +12,14 @@
 		display: inline-block;
 		position: relative;
 
+		@include breakpoint(small) {
+			float:none!important;
+			max-width: 100%!important;
+			padding:0!important;
+			margin: 0 0 _size(element-margin) 0!important;
+
+		}
+
 		img {
 			border-radius: _size(border-radius);
 			display: block;
