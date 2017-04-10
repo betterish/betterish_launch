@@ -14,7 +14,7 @@
     <article>
       {% if page.featured-image %}
      <span class="image right style6">
-       <img src="{{ page.featured-image }}" alt="">
+       <img src="{{ page.featured-image | relative_url }}" alt="">
      </span> {% endif %}
       <div class="content reading">
     {{ content }}

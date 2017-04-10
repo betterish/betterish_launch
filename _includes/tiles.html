@@ -3,7 +3,7 @@
 {% for episode in sorted_episodes %}
 	<article class="style6">
 		<span class="image square">
-			<img src="{{ episode.image }}" alt="" />
+			<img src="{{ episode.image | relative_url }}" alt="" />
 		</span>
 		<a href="{{ episode.url  | relative_url }}">
 			<h3>{{ episode.title }}</h3>
