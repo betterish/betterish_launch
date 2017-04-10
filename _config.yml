@@ -11,7 +11,7 @@ subtitle: makers of the bettercast
 email: hello@betterish.co
 description: Real stories, tips, and tools to keep you feeling motivated.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://betterish.github.io/" # the base hostname & protocol for your site
+url: "https://betterish.co/" # the base hostname & protocol for your site
 permalink: pretty
 
 # Logo settings
