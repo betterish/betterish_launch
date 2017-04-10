@@ -31,7 +31,7 @@ Tired of being a part of a story that we think is setting back our entire missio
 ## What we’re making
 Right now, we make a weekly podcast, the [bettercast](/bettercast), dedicated to real stories of people who got better at things. These are not your typical self-improvement journeys, precisely because they are real. Each episode is dedicated to a conversation with a real person about what getting better at things really looks like.
 
-In addition, we post to instagram. [@betterish](http://instagram.com/bettercast) is a bite-sized, visual alternative to the bettercast and an antidote to the curated performances typical of instagram.
+In addition, we post to instagram. [@betterish_co](http://instagram.com/betterish_co) is a bite-sized, visual alternative to the bettercast and an antidote to the curated performances typical of instagram.
 
 ## What we’re selling
 We have no fucking clue. We actually don't even know if it's possible to make money at this yet, because every book, blog post, and MBA will tell you that the easiest way to get people to buy shit is to remind them they are inadequate or broken. We hope to figure an alternative to that with you as we get to know more about what kind of things you want to get better at and the problems you’re having with getting better at them.
