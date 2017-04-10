@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: about
 featured-image: assets/images/team.jpg
 share-image: assets/images/share.png
 ---
