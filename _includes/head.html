@@ -25,15 +25,10 @@
     </script>
 
     <!-- Open Graph -->
-    <meta property="og:type" content="business.business">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="betterish">
-    <meta property="og:url" content="https://betterish.co">
-    <meta property="og:image" content="{% if page.share-image %}{{ page.share-image | prepend: site.url }}{% endif %}">
-    <meta property="business:contact_data:street_address" content="">
-    <meta property="business:contact_data:locality" content="Oakland">
-    <meta property="business:contact_data:region" content="CA">
-    <meta property="business:contact_data:postal_code" content="">
-    <meta property="business:contact_data:country_name" content="USA">
+    <meta property="og:url" content="{% if page.permalink %}{{ page.permalink | prepend: site.url }}{% else %}{{ site.url }}{% endif %}">
+    <meta property="og:image" content="{% if page.share-image %}{{ page.share-image | prepend: site.url }}{% else %}{{ assets/images/share.png | prepend: site.url }}{% endif %}">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
