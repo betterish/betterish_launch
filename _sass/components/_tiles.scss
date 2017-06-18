@@ -161,7 +161,7 @@
 
 			&.style6 {
 				> .image:before {
-					@include vendor('background', 'linear-gradient(135deg, #{_palette(gray1)} 0%,#{_palette(gray2)} 36%, #{_palette(gray3)} 100%)');
+					@include vendor('background', 'linear-gradient(135deg, #{_palette(gray1)} 0%,#{_palette(gray2)} 36%, #{_palette(fg)} 100%)');
 				}
 			}
 

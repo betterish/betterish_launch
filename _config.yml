@@ -15,7 +15,7 @@ url: "https://betterish.co/" # the base hostname & protocol for your site
 permalink: pretty
 
 # Logo settings
-logo-image-url: images/logo.svg
+logo-image-url: /assets/images/logo.svg
 font-awesome-icon-logo:
 
 # Social settings

@@ -10,17 +10,17 @@
 		@include padding(1.5em, 0);
 
 		.logo {
-			display: block;
 			border-bottom: 0;
 			color: inherit;
 			font-weight: _font(weight-bold);
 			font-family: _font(family-logo);
-			letter-spacing: _font(letter-spacing);
+			letter-spacing: 0.2em;
 			margin: 0 0 (_size(element-margin) * 1.25) 0;
 			text-decoration: none;
-			text-transform: lowercase;
+			text-transform: uppercase;
 			text-align: center;
 			display: inline-block;
+			font-size: 1.6em;
 
 			> * {
 				display: inline-block;
@@ -28,18 +28,29 @@
 			}
 
 			.symbol {
-				margin-right: 0.65em;
+				/* margin-right: 0.65em; */
 
 				img {
 					display: block;
-					width: 2em;
+					width: 5em;
 					height: 2em;
 				}
 
 			}
 		}
+
+		.logo_ish {
+			font-family: 'MadinaScript';
+			text-transform: lowercase;
+			letter-spacing: 0;
+			vertical-align: top;
+			font-size: 1.2em;
+		}
+
 		.sub_logo {
 			border-bottom: none;
+			margin-left: 1.1em;
+			vertical-align: -webkit-baseline-middle;
 			@include breakpoint(xsmall) {
 					display:none;
 			}

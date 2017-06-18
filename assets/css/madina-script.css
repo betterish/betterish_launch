@@ -1,0 +1,14 @@
+/*!
+ *  Madina Script */
+
+ @font-face {
+ 	font-family: 'MadinaScript';
+ 	src: url('../fonts/madina-script/madina-script.eot');
+ 	src: url('../fonts/madina-script/madina-script.eot?#iefix') format('embedded-opentype'),
+              url('../fonts/madina-script/madina-script.woff2') format('woff2'),
+ 	     url('../fonts/madina-script/madina-script.woff') format('woff'),
+ 	     url('../fonts/madina-script/madina-script.ttf') format('truetype'),
+ 	     url('../fonts/madina-script/madina-script.svg#youworkforthem') format('svg');
+ 	font-weight: normal;
+ 	font-style: normal;
+ }

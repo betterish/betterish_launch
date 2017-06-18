@@ -23,13 +23,13 @@
 
 // Font.
 	$font: (
-		family: 			('clear_sansthin', sans-serif),
-		family-logo:		('butler_stencillight', serif),
+		family: 			('Roboto Slab', serif),
+		family-logo:		('brandon-grotesque', sans-serif),
 		family-thick:		('clear_sans', sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
-		weight-bold:		900,
-		weight-bold-alt:	700,
+		weight-bold:		700,
+		weight-bold-alt:	500,
 		letter-spacing:		0.35em,
 		letter-spacing-alt:	-0.035em
 	);
@@ -39,12 +39,12 @@
 		bg:					#ffffff,
 		bg-accent:			#333333,
 		bg-alt:				#f6f6f6,
-		fg:					#585858,
+		fg:					#193A54,
 		fg-bold:					#000000,
 		fg-accent:			#ffffff,
 		border:				#c9c9c9,
 		border-bg:			rgba(144,144,144,0.075),
-		accent1:			#f2849e,
+		accent1:			#65C29B,
 		accent2:			#7ecaf6,
 		accent3:			#7bd0c1,
 		accent4:			#c75b9b,
