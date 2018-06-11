@@ -1,0 +1,17 @@
+// Some special letter effects
+
+#logo {
+	font-weight: 200;
+	letter-spacing: 9px;
+	line-height: 1em;
+	text-transform: lowercase;
+
+	a {
+		border-bottom:none;
+	}
+}
+
+.motto {
+	font-family: _font(family-alt);
+	font-weight: 400;
+}

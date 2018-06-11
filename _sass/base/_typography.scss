@@ -6,21 +6,39 @@
 
 /* Type */
 
-	body, input, select, textarea {
-		color: _palette(fg);
-		font-family: _font(family);
-		font-size: 16pt;
-		font-weight: _font(weight);
-		line-height: 1.75;
 
-		@include breakpoint(xlarge) {
-			font-size: 14pt;
-		}
 
-		@include breakpoint(large) {
-			font-size: 12pt;
-		}
+html {
+	font-size: 16pt;
+
+	@include breakpoint(xlarge) {
+		font-size: 14pt;
 	}
+
+	@include breakpoint(large) {
+		font-size: 12pt;
+	}
+
+	@include breakpoint(small) {
+		font-size: 11pt;
+	}
+
+	@include breakpoint(xxsmall) {
+		font-size: 10pt;
+	}
+}
+
+body {
+	background-color: _palette(bg);
+	color: _palette(fg);
+}
+
+body, input, select, textarea {
+	font-family: _font(family);
+	font-size: 1rem;
+	font-weight: _font(weight);
+	line-height: $baseline;
+}
 
 	a {
 		@include vendor('transition', (
@@ -38,7 +56,6 @@
 	}
 
 	strong, b {
-		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 	}
 
@@ -48,60 +65,73 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+		margin-bottom: vr(1);
+		margin-bottom: rvr(1);
+
+		&.major {
+			font-size: 1.25rem;
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		letter-spacing: _font(kerning);
+		margin: 0 0 0 0;
+		margin-bottom: vr(1);
+		margin-bottom: rvr(1);
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+
+	h1, h2 {
+		text-transform: lowercase;
 	}
 
 	h1 {
-		font-size: 2.75em;
-		font-weight: _font(weight-bold-alt);
-		line-height: 1.3;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		letter-spacing: _font(letter-spacing-alt);
-
-		a {
-			color: inherit;
-		}
-
-		@include breakpoint(small) {
-			font-size: 2em;
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
-		}
-
-		@include breakpoint(xxsmall) {
-			font-size: 1.75em;
-		}
-	}
-
-	h2, h3, h4, h5, h6 {
-		/* color: _palette(fg-bold); */
-		font-weight: _font(weight-bold);
-		line-height: 1.5;
-		margin: 0 0 (_size(element-margin) * 1) 0;
-		text-transform: lowercase;
-		letter-spacing: _font(letter-spacing);
-
-		a {
-			color: inherit;
-		}
+		font-size: ms(3);
+		line-height: vr(3);
+		line-height: rvr(3);
+		margin-top: vr(1);
+		margin-top: rvr(1);
+		margin-bottom: vr(1);
+		margin-bottom: rvr(1);
 	}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: ms(2);
+		line-height: vr(2);
+		line-height: rvr(2);
+		margin-top: vr(1);
+		margin-top: rvr(1);
+		margin-bottom: vr(1);
+		margin-bottom: rvr(1);
 	}
 
 	h3 {
-		font-size: 1em;
+		font-size: ms(1);
+		line-height: vr(1);
+		line-height: rvr(1);
 	}
 
 	h4 {
-		font-size: 0.8em;
+		font-size: ms(1);
+		line-height: vr(1);
+		line-height: rvr(1);
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-size: ms(0);
+		line-height: vr(1);
+		line-height: rvr(1);
+		margin-bottom: 0;
 	}
 
 	h6 {
-		font-size: 0.8em;
+		font-size: ms(0);
+		line-height: vr(1);
+		line-height: rvr(1);
 	}
 
 	@include breakpoint(medium) {
@@ -113,14 +143,28 @@
 	}
 
 	@include breakpoint(small) {
-		h2 {
-			font-size: 1em;
-		}
+			p {
+				&.major {
+					font-size: 1.1rem;
+				}
+			}
 
-		h3 {
-			font-size: 0.8em;
+			h1 {
+				font-size: 2.5rem;
+			}
+
+			h2 {
+				font-size: 2rem;
+			}
+
+			h3 {
+				font-size: 1.25rem;
+			}
+
+			h4 {
+				font-size: 1rem;
+			}
 		}
-	}
 
 	sub {
 		font-size: 0.8em;

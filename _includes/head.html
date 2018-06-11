@@ -4,36 +4,30 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="author" content="betterish">
+    <meta name="author" content="the bettercast">
 
     <!-- JSON-LD -->
 
     <script type="application/ld+json">
     {
       "@context": "http://schema.org/",
-      "@type": "Organization",
-      "name": "betterish",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "",
-        "addressLocality": "Oakland",
-        "addressRegion": "CA",
-        "postalCode": ""
-      },
-      "telephone": ""
+      "@type": "WebSite",
+      "name": "the bettercast",
+      "alternateName": "bettercast",
+      "url": "{{ site.url }}"
     }
     </script>
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="betterish">
+    <meta property="og:title" content="the bettercast">
     <meta property="og:url" content="{% if page.permalink %}{{ page.permalink | prepend: site.url }}{% else %}{{ site.url }}{% endif %}">
     <meta property="og:image" content="{% if page.share-image %}{{ page.share-image | prepend: site.url }}{% else %}{{ assets/images/share.png | prepend: site.url }}{% endif %}">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@betterish">
-    <meta name="twitter:title" content="betterish">
+    <meta name="twitter:site" content="{{ site.twitter_username}}">
+    <meta name="twitter:title" content="{{ site.twitter_username}}">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="{% if page.share-image %}{{ page.share-image | prepend: site.url }}{% endif %}">
 

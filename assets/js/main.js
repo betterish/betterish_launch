@@ -102,6 +102,11 @@
 				);
 			});
 
+
+			// Smooth scroll.
+	$('.smooth-scroll').scrolly();
+	$('.smooth-scroll-middle').scrolly({ anchor: 'middle' });
+
 			// Menu.
 				var $menu = $('#menu'),
 					$menuInner;

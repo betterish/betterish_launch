@@ -15,12 +15,10 @@
 			font-weight: _font(weight-bold);
 			font-family: _font(family-logo);
 			letter-spacing: 0.2em;
-			margin: 0 0 (_size(element-margin) * 1.25) 0;
 			text-decoration: none;
-			text-transform: uppercase;
+			text-transform: lowercase;
 			text-align: center;
 			display: inline-block;
-			font-size: 1.6em;
 
 			> * {
 				display: inline-block;

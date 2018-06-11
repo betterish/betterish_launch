@@ -1,6 +1,10 @@
+
+
+<h2 id="s01">Season One</h2>
+
 <section class="tiles">
-{% assign sorted_episodes = (site.episodes | sort: 'date' ) | reverse %}
-{% for episode in sorted_episodes %}
+{% assign sorted_episodes = site.episodes | sort: 'date' ) | reverse %}
+{% for episode in sorted_episodes | where: 'season',01 %}
 	<article class="style6">
 		<span class="image square">
 			<img src="{{ episode.image | relative_url }}" alt="" />

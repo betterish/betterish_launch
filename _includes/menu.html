@@ -1,19 +1,9 @@
 <nav id="menu">
 	<ul class="links">
 
-		{% for page in site.pages %}
-		{% if page.path == "index.html" %}
-		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
-		{% endif %} {% endfor %}
-
-		{% for page in site.pages %}
-
-		{% if page.title %}
-
-		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "betterish" }}</a></li>
-
-		{% endif %} {% endfor %}
-		<li><a href="https://medium.com/@betterish_co">blog</a></li>
+		{% for item in site.data.nav %}
+		<li><a href="{{ item.path }}">{{ item.title }}</a></li>
+		{% endfor %}
 	</ul>
 	<!-- <ul class="actions vertical">
 	<li><a href="#" class="button special fit">Get Started</a></li>

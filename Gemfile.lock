@@ -35,7 +35,7 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
-    rake (10.5.0)
+    rake (12.3.1)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -48,9 +48,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.12)
-  jekyll (~> 3.3)
+  jekyll (= 3.4.4)
   phantom_jekyll_theme!
-  rake (~> 10.0)
+  rake (~> 12.0)
 
 BUNDLED WITH
-   1.14.6
+   1.16.2

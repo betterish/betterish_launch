@@ -1,0 +1,40 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: the bettercast
+subtitle: a podcast by Habitry
+email: hello@thebettercast.com
+description: Real stories, tips, and tools to keep you feeling motivated.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
+permalink: pretty
+
+# Logo settings
+logo-image-url: /assets/images/logo.svg
+font-awesome-icon-logo:
+
+# Social settings
+twitter_username: thebettercast
+instagram_username: thecoachstevo
+medium: coach_stevo
+phone:
+
+# tiles
+tiles-source: episodes
+tiles-count: 12
+
+collections:
+  episodes:
+    output: true
+
+# Build settings
+markdown: kramdown
+exclude: ["Gemfile", "Gemfile.lock", node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/","docker-compose.yml"]
+
+# Layout settings
+home-link-in-menu: yes

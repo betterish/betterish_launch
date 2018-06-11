@@ -13,10 +13,10 @@
   <h1>{{ page.landing-title }}</h1>
 </header>
   <div class="content">
-  <p>{{ page.tagline }}</p>
+  <!-- <p>{{ page.tagline }}</p> -->
   <ul class="actions">
-    <li><a href="#bettercast" class="button icon fa-microphone scrolly">Podcast</a></li>
-    <li><a href="http://instagram.com/betterish_co" class="button icon fa-instagram">Instagram</a></li>
+    <li><a href="#bettercast" class="button icon fa-play smooth-scroll">previous episodes</a></li>
+    <li><a href="https://itunes.apple.com/us/podcast/bettercast/id1182483561?mt=2" class="button special icon fa-rss">subscribe</a></li>
 </ul>
 </div>
   </div>
@@ -30,15 +30,9 @@
   {{ content }}
 
   <!-- Tiles -->
-  <header id="bettercast">
-    <h2>bettercast episodes</h2>
-    <p>The podcast about getting better at things</p>
-    <ul class="actions">
-      <li><a href="https://itunes.apple.com/us/podcast/bettercast/id1182483561?mt=2" class="button special icon fa-rss">Subscribe</a></li>
-  </ul>
-  </header>
+  <section id="bettercast">
   {% include tiles.html %}
-
+</section>
 
   <!-- footer -->
   {% include footer.html %}

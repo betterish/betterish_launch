@@ -1,0 +1,12 @@
+# pages to appear in navivation
+- title: home
+  path: /
+
+- title: about
+  path: /about
+
+- title: episodes
+  path: /episodes
+
+- title: chat with stevo
+  path: /chat
