@@ -1320,15 +1320,15 @@ em, i {
 
 p {
   margin: 0 0 2em 0;
-  margin-bottom: vr(1);
-  margin-bottom: rvr(1); }
+  margin-bottom: 1.65rem;
+  margin-bottom: calc(1.65 * 1 * 1rem); }
   p.major {
     font-size: 1.25rem; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 0 0;
-  margin-bottom: vr(1);
-  margin-bottom: rvr(1); }
+  margin-bottom: 1.65rem;
+  margin-bottom: calc(1.65 * 1 * 1rem); }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none; }
@@ -1338,42 +1338,42 @@ h1, h2 {
 
 h1 {
   font-size: 3.375rem;
-  line-height: vr(3);
-  line-height: rvr(3);
-  margin-top: vr(1);
-  margin-top: rvr(1);
-  margin-bottom: vr(1);
-  margin-bottom: rvr(1); }
+  line-height: 4.95rem;
+  line-height: calc(1.65 * 3 * 1rem);
+  margin-top: 1.65rem;
+  margin-top: calc(1.65 * 1 * 1rem);
+  margin-bottom: 1.65rem;
+  margin-bottom: calc(1.65 * 1 * 1rem); }
 
 h2 {
   font-size: 2.25rem;
-  line-height: vr(2);
-  line-height: rvr(2);
-  margin-top: vr(1);
-  margin-top: rvr(1);
-  margin-bottom: vr(1);
-  margin-bottom: rvr(1); }
+  line-height: 3.3rem;
+  line-height: calc(1.65 * 2 * 1rem);
+  margin-top: 1.65rem;
+  margin-top: calc(1.65 * 1 * 1rem);
+  margin-bottom: 1.65rem;
+  margin-bottom: calc(1.65 * 1 * 1rem); }
 
 h3 {
   font-size: 1.5rem;
-  line-height: vr(1);
-  line-height: rvr(1); }
+  line-height: 1.65rem;
+  line-height: calc(1.65 * 1 * 1rem); }
 
 h4 {
   font-size: 1.5rem;
-  line-height: vr(1);
-  line-height: rvr(1); }
+  line-height: 1.65rem;
+  line-height: calc(1.65 * 1 * 1rem); }
 
 h5 {
   font-size: 1rem;
-  line-height: vr(1);
-  line-height: rvr(1);
+  line-height: 1.65rem;
+  line-height: calc(1.65 * 1 * 1rem);
   margin-bottom: 0; }
 
 h6 {
   font-size: 1rem;
-  line-height: vr(1);
-  line-height: rvr(1); }
+  line-height: 1.65rem;
+  line-height: calc(1.65 * 1 * 1rem); }
 
 @media screen and (max-width: 980px) {
   h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
