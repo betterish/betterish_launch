@@ -8,5 +8,8 @@
 - title: episodes
   path: /episodes
 
+- title: upcoming
+  path: /upcoming
+
 - title: chat with stevo
-  path: /chat
+  path: https://calendly.com/thebettercast/interest/
