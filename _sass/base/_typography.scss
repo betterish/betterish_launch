@@ -9,22 +9,18 @@
 
 
 html {
-	font-size: 16pt;
-
-	@include breakpoint(xlarge) {
-		font-size: 14pt;
-	}
+	font-size: 18pt;
 
 	@include breakpoint(large) {
-		font-size: 12pt;
+		font-size: 16pt;
 	}
 
 	@include breakpoint(small) {
-		font-size: 11pt;
+		font-size: 12pt;
 	}
 
 	@include breakpoint(xxsmall) {
-		font-size: 10pt;
+		font-size: 14pt;
 	}
 }
 
@@ -229,4 +225,15 @@ body, input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+
+	q {
+	  quotes: "“" "”" "‘" "’";
+	}
+	q:before {
+	    content: open-quote;
+	}
+	q:after {
+	    content: close-quote;
 	}
